@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin-top: 20px;
+    background-color: aqua;
+    width: 80%;
+    height:500px;
+    border: 1px solid red;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.item{
+ margin-top: 10px;
+ background-color: bisque;
+ padding: 20px;
+ width: 40%;
+ height:100%;
+ font-size: 30px;
+ border: 2px solid brown;
+ border-radius: 5px;
+ text-align: center;
+ margin: auto;
+
+}
