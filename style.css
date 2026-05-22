@@ -6,6 +6,9 @@ body{
     padding: 0px;
     font-family: "Exo", sans-serif;
 }
+body::selection{
+    background-color: #E5D877;
+}
 .navbar{
  
     width: 80%;
